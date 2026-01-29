@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Flow",
+    "version": "1.0",
+    "description": "Minimalist Youtube to keep you in the flow.",
+    "content_scripts": [
+        {
+            "matches": ["*://*.youtube.com/*"],
+            "css": ["styles.css"],
+            "js": ["content.js"]
+        }
+    ]
+}

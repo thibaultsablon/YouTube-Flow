@@ -1,0 +1,63 @@
+/* Home page */
+
+a[href*="shorts"],
+a[title="Shorts"],
+[id="shorts-button"] { 
+    display: none !important; 
+}
+
+.ytd-notification-topbar-button-renderer,
+[aria-label*="Notifications"],
+[aria-label="Notifications"]  {
+    display: none !important; 
+}
+
+.ytd-feed-filter-chip-bar-renderer {
+    display: none !important;
+}
+
+[aria-label="Search with your voice"] {
+    display: none !important;
+}
+
+#guide-button.ytd-masthead{
+    display: none !important;
+}
+
+
+
+/* Search page */
+
+grid-shelf-view-model:has(a[href^="/shorts/"]) {
+  display: none !important;
+}
+
+.yt-chip-cloud-renderer {
+  display: none !important;
+}
+
+#about-these-results {
+  display: none !important;
+}
+
+/* Video page */
+#secondary {
+  display: none !important;
+}
+
+dislike-button-view-model {
+    display: none !important;
+}
+
+[aria-label="Share"] {
+    display: none !important;
+}
+
+
+#flexible-item-buttons {
+    display: none !important;
+}
+
+#button-shape {
+    display: none !important;
+}
